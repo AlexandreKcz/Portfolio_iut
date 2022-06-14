@@ -19,3 +19,16 @@ nav {
     font-weight: bold;
     padding: 0 3px;
 }
+
+footer {
+    background: rgb(187, 187, 187);
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    padding-top: 10px;
+    height: 5%;
+}
+
+footer div{
+    text-align: center;
+}
