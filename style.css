@@ -20,15 +20,48 @@ nav {
     padding: 0 3px;
 }
 
+html, body{
+    height: 100%;
+    margin: 0; padding: 0;
+}
+
+section{
+    display: inline-block;
+    width: 90%;
+    height: 80%;
+}
+
+body{
+    display: table;
+    width: 100%;
+}
+
 footer {
     background: rgb(187, 187, 187);
-    position: absolute;
+    display: table-row;
     bottom: 0;
-    width: 99%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
     padding-top: 10px;
     height: 3%;
 }
 
+footer img{
+    padding-top: 5px;
+}
+
 footer div{
     text-align: center;
+}
+
+header h1{
+    display: inline-block;
+    width: 90%;
+}
+
+
+header div{
+    display: inline-block;
 }
