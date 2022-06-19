@@ -65,3 +65,57 @@ header h1{
 header div{
     display: inline-block;
 }
+
+section table{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*
+.block{
+    display: inline-block;
+}
+*/
+
+.blockAlignRight{
+    display: inline-block;
+    width: 50%;
+
+    text-align: center;
+    vertical-align:top;
+    /*margin: auto;*/
+    height: 20%;
+}
+
+.tabAlign{
+
+    text-align: center;
+    margin: auto 0%;
+}
+
+.BlockAlignLeft{
+    
+    width: 49%;
+
+    display:inline-block;
+
+    vertical-align:top;
+
+    text-align: left;
+    /*margin: 0px;*/
+    height: 20%;
+}
+
+.compAlign{
+    width: 49%;
+
+    display:inline-block;
+
+    vertical-align:top;
+
+    text-align: center;
+    margin: auto 0%;
+    height: 20%;
+}
